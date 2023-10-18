@@ -157,3 +157,4 @@ plt.title('Loss vs. Epochs')
 plt.legend()
 plt.savefig('loss_vs_epochs.png')  
 plt.show()
+
