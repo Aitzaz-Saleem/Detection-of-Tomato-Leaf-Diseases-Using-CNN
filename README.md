@@ -24,7 +24,7 @@ The model summary is as follows:
 <br>
 Model: "sequential"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param    
 =================================================================
  conv2d (Conv2D)             (None, 222, 222, 32)      896       
                                                                  
@@ -63,11 +63,9 @@ _________________________________________________________________
  dense_1 (Dense)             (None, 10)                650       
                                                                  
 =================================================================
-<br>Total params: 171,914
-
-<br>Trainable params: 171,914
-
-<br>Non-trainable params: 0
+Total params: 171,914<br>
+Trainable params: 171,914<br>
+Non-trainable params: 0<br>
 _________________________________________________________________
-<br>None
+None
 
