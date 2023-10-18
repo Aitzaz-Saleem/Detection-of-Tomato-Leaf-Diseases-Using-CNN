@@ -1,6 +1,8 @@
-# I have developed a deep learning model for the detection of diseases in tomato leaves. This model is a Convolutional Neural Network (CNN) implemented using the TensorFlow framework. The training process was accelerated by utilizing a GPU, which significantly improved the training speed.
+# Detection of diseases in Tomato Leaves
 
-# There is a total of 10,000 images distributed across 10 classes. Among these, 8,000 images are allocated for training, 2,000 for validation, and an additional 100 are reserved for testing. 
+I have developed a deep learning model for the detection of diseases in tomato leaves. This model is a Convolutional Neural Network (CNN) implemented using the TensorFlow framework. The training process was accelerated by utilizing a GPU, which significantly improved the training speed.
+
+There is a total of 10,000 images distributed across 10 classes. Among these, 8,000 images are allocated for training, 2,000 for validation, and an additional 100 are reserved for testing. 
 The classes are named as follows:
 1. Tomato___Bacterial_spot
 2. Tomato___Early_blight
@@ -13,12 +15,12 @@ The classes are named as follows:
 9. Tomato___Tomato_mosaic_virus
 10. Tomato___healthy
  
-# The dataset can be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
-# The achieved accuracy score stands at an impressive 94%, while the loss metric recorded a value of 1.00.
+The dataset can be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
+The achieved accuracy score stands at an impressive 94%, while the loss metric recorded a value of 1.00.
 
 ##################################################################
 
-# The model summary is as follows:
+The model summary is as follows:
 
 Model: "sequential"
 _________________________________________________________________
