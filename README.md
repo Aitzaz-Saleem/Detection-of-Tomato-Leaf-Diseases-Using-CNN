@@ -1,27 +1,27 @@
 # Detection of diseases in Tomato Leaves
 
 I have developed a deep learning model for the detection of diseases in tomato leaves. This model is a Convolutional Neural Network (CNN) implemented using the TensorFlow framework. The training process was accelerated by utilizing a GPU, which significantly improved the training speed.
-
+<br>
 There is a total of 10,000 images distributed across 10 classes. Among these, 8,000 images are allocated for training, 2,000 for validation, and an additional 100 are reserved for testing. 
 The classes are named as follows:
-1. Tomato___Bacterial_spot
-2. Tomato___Early_blight
-3. Tomato___Late_blight
-4. Tomato___Leaf_Mold
-5. Tomato___Septoria_leaf_spot
-6. Tomato___Spider_mites_Two-spotted_spider_mite
-7. Tomato___Target_Spot
-8. Tomato___Tomato_Yellow_Leaf_Curl_Virus
-9. Tomato___Tomato_mosaic_virus
-10. Tomato___healthy
+1. Tomato___Bacterial_spot.
+2. Tomato___Early_blight.
+3. Tomato___Late_blight.
+4. Tomato___Leaf_Mold.
+5. Tomato___Septoria_leaf_spot.
+6. Tomato___Spider_mites_Two-spotted_spider_mite.
+7. Tomato___Target_Spot.
+8. Tomato___Tomato_Yellow_Leaf_Curl_Virus.
+9. Tomato___Tomato_mosaic_virus.
+10. Tomato___healthy.
  
-The dataset can be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
+The dataset can be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf<br>
 The achieved accuracy score stands at an impressive 94%, while the loss metric recorded a value of 1.00.
-
+<br>
 ##################################################################
 
 The model summary is as follows:
-
+<br>
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -63,11 +63,11 @@ _________________________________________________________________
  dense_1 (Dense)             (None, 10)                650       
                                                                  
 =================================================================
-Total params: 171,914
+<br>Total params: 171,914
 
-Trainable params: 171,914
+<br>Trainable params: 171,914
 
-Non-trainable params: 0
+<br>Non-trainable params: 0
 _________________________________________________________________
-None
+<br>None
 
