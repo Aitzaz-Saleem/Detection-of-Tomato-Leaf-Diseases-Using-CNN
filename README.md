@@ -1,4 +1,4 @@
-# Detection of diseases in Tomato Leaves
+# Detection of Diseases in Tomato Leaves
 
 I have developed a deep learning model for the detection of diseases in tomato leaves. This model is a Convolutional Neural Network (CNN) implemented using the TensorFlow framework. The training process was accelerated by utilizing a GPU, which significantly improved the training speed.
 <br>
