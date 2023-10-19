@@ -16,7 +16,7 @@ The classes are named as follows:
 10. Tomato___healthy.
  
 The dataset can be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf<br>
-The achieved accuracy score stands at an impressive 94%, while the loss metric recorded a value of 1.00.
+The achieved test accuracy score stands at an impressive 89.50%%, while the test loss metric recorded a value of 0.36.
 <br>
 ##################################################################
 
